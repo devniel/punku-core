@@ -1,0 +1,7 @@
+should return error if not all the user properties are provided
+should return error if the email is not valid
+should return error if the password is not valid
+should return error if the email and password are not valid
+should return error if the email is already registered
+should return error if the email is the user is already registered
+should return a success message

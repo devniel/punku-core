@@ -1,0 +1,95 @@
+<mjml>
+  <mj-body background-color="#ffffff">
+    <mj-section background-color="#ffffff" padding-bottom="0px" padding-top="0">
+      <mj-column vertical-align="top" width="100%"> </mj-column>
+    </mj-section>
+    <mj-section background-color="#f7f7f7">
+      <mj-column vertical-align="middle" width="100%">
+        <mj-text
+          align="left"
+          color="#ffffff"
+          font-size="22px"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;"
+          padding-left="25px"
+          padding-right="25px"
+        >
+          <span style="color:#7D4CDB">Hi Daniel Flores,</span><br /><br />
+          <span style="color:#333">
+            Thanks for joining us!
+          </span>
+        </mj-text>
+
+        <mj-text
+          align="left"
+          color="#333"
+          font-size="15px"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;"
+          padding-left="25px"
+          padding-right="25px"
+        >
+          But please, first verify your email by clicking this link:
+        </mj-text>
+
+        <mj-button
+          href="http://localhost:3333/verify/3440850e-7b6c-46f2-a0ea-6fde8a14d96e"
+          align="left"
+          font-size="22px"
+          font-weight="bold"
+          background-color="#7d4cdb"
+          border-radius="10px"
+          color="#FFF"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;"
+          >Verify now</mj-button
+        >
+
+        <mj-text
+          align="left"
+          color="#333"
+          font-size="15px"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;"
+          padding-left="25px"
+          padding-right="25px"
+        >
+          If your are unable to click the button, copy and paste this link into the address bar on your browser:
+        </mj-text>
+
+        <mj-button
+          align="left"
+          padding-top="0px"
+          padding-bottom="0px"
+          padding-left="0px"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;"
+          font-size="15px"
+          background-color="transparent"
+          color="rgb(85, 26, 139);"
+          href=" http://localhost:3333/verify/3440850e-7b6c-46f2-a0ea-6fde8a14d96e"
+        >
+          http://localhost:3333/verify/3440850e-7b6c-46f2-a0ea-6fde8a14d96e
+        </mj-button>
+
+        <mj-text
+          align="left"
+          color="#333"
+          font-size="15px"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;"
+          padding-left="25px"
+          padding-right="25px"
+        >
+          Again, thank you. 😊<br />
+        </mj-text>
+
+        <mj-text
+          padding-top="30px"
+          line-height="0px"
+          align="left"
+          color="#999"
+          font-size="20px"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;"
+        >
+          <h1>youl</h1>
+          <span style="font-size:10.5px">by devniel</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

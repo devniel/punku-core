@@ -1,0 +1,40 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Mutation {
+  """Register a new user and send a verification e-mail"""
+  signUp(data: SignupInput!): SignupOutput!
+
+  """Sign in an user"""
+  signIn(password: String!, username: String!): SigninOutput
+}
+
+type Query {
+  """Returns the list of users."""
+  recipes(title: String): [User!]!
+}
+
+type SigninOutput {
+  user: User!
+  access_token: String!
+}
+
+input SignupInput {
+  name: String!
+  username: String!
+  email: String!
+  password: String!
+}
+
+type SignupOutput {
+  user: User!
+}
+
+type User {
+  id: ID!
+  name: String!
+  username: String!
+  email: String!
+  verified_email: Boolean!
+}
