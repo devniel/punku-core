@@ -5,7 +5,7 @@ FROM node:12.22-alpine As development
 WORKDIR /usr/src/app
 COPY ./package*.json ./
 COPY .yarnrc.yml ./
-COPY .yarn ./
+COPY .yarn ./.yarn
 
 RUN npm install -g -f yarn
 RUN npm i -g -f corepack
@@ -22,7 +22,7 @@ ENV NODE_ENV=${NODE_ENV}
 WORKDIR /usr/src/app
 COPY package*.json ./
 COPY .yarnrc.yml ./
-COPY .yarn ./
+COPY .yarn ./.yarn
 
 RUN npm install -g -f yarn
 RUN npm i -g -f corepack

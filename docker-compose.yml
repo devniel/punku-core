@@ -2,7 +2,8 @@ version: '3.7'
 
 services:
   main:
-    container_name: main
+    image: punku/core:v1
+    container_name: core
     build:
       context: .
       target: development
@@ -14,7 +15,7 @@ services:
       - 9229:9229
     command: yarn run start:dev
     env_file:
-      - docker.env
+      - .env
     networks:
       - webnet
     depends_on:
@@ -36,11 +37,11 @@ services:
       POSTGRES_DB: ${POSTGRES_DATABASE}
       POSTGRES_HOST: main
       PG_DATA: /var/lib/postgresql/data
-    #ports:
-    #  - 5432:5432
+    ports:
+      - ${POSTGRES_PORT}:${POSTGRES_PORT}
     volumes:
-      - pgdata:/var/lib/postgresql/data
+      - postgres:/var/lib/postgresql/data
 networks:
   webnet:
 volumes:
-  pgdata:
+  postgres:

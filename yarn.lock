@@ -2201,13 +2201,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/zen-observable@npm:0.8.3":
-  version: 0.8.3
-  resolution: "@types/zen-observable@npm:0.8.3"
-  checksum: 08c88354abcf03a2176a2ec32e07da1f25fdad94fbc2f419bea53d77deb04ad4759518b4fe3fc695e61065dd4bdf7c8bd26b5211a6cd5be2233872806bdee48d
-  languageName: node
-  linkType: hard
-
 "@typescript-eslint/eslint-plugin@npm:^2.25.0, @typescript-eslint/eslint-plugin@npm:^2.3.0":
   version: 2.34.0
   resolution: "@typescript-eslint/eslint-plugin@npm:2.34.0"
@@ -12693,9 +12686,9 @@ __metadata:
   linkType: hard
 
 "spawn-command@npm:^0.0.2-1":
-  version: 0.0.2-1
-  resolution: "spawn-command@npm:0.0.2-1"
-  checksum: 2cac8519332193d1ed37d57298c4a1f73095e9edd20440fbab4aa47f531da83831734f2b51c44bb42b2747bf3485dec3fa2b0a1003f74c67561f2636622e328b
+  version: 0.0.2
+  resolution: "spawn-command@npm:0.0.2"
+  checksum: e35c5d28177b4d461d33c88cc11f6f3a5079e2b132c11e1746453bbb7a0c0b8a634f07541a2a234fa4758239d88203b758def509161b651e81958894c0b4b64b
   languageName: node
   linkType: hard
 
@@ -13782,7 +13775,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-typegraphql-nestjs@latest:
+"typegraphql-nestjs@npm:latest":
   version: 0.4.1
   resolution: "typegraphql-nestjs@npm:0.4.1"
   dependencies:
@@ -14848,12 +14841,11 @@ typegraphql-nestjs@latest:
   linkType: hard
 
 "zen-observable-ts@npm:^1.0.0":
-  version: 1.1.0
-  resolution: "zen-observable-ts@npm:1.1.0"
+  version: 1.2.3
+  resolution: "zen-observable-ts@npm:1.2.3"
   dependencies:
-    "@types/zen-observable": 0.8.3
     zen-observable: 0.8.15
-  checksum: 1772727f2c96af228c52b008260e1e4ae512782abc9d4f4a78d1a61913aa3b55ae672ad343ecf6895d9b968b5e3f4a41b5a317702cdc6cd5f6f93bc0dacf8103
+  checksum: 0548b555c67671f1240fb416755d2c27abf095b74a9e25c1abf23b2e15de40e6b076c678a162021358fe62914864eb9f0a57cd65e203d66c4988a08b220e6172
   languageName: node
   linkType: hard
 
